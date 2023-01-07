@@ -1,0 +1,23 @@
+---
+title: "Old Faithful"
+format: html
+server: shiny
+---
+
+## Render time
+
+```{r}
+Sys.time()
+```
+
+
+## Runtime
+
+```{r}
+verbatimTextOutput("time")
+```
+
+```{r}
+#| context: server
+output$time <- renderPrint({ Sys.time() })
+```

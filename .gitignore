@@ -14,3 +14,6 @@ renv/
 # Python stuff
 .venv/
 *.pyc
+
+# Stuff stuff
+.DS_Store
