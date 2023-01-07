@@ -15,8 +15,10 @@ Sys.time()
 
 ```{r}
 verbatimTextOutput("time")
+verbatimTextOutput("files")
 ```
 
 ```{r, context="server"}
 output$time <- renderPrint({ Sys.time() })
+output$files <- renderPrint({ list.files(all.files = TRUE) })
 ```
