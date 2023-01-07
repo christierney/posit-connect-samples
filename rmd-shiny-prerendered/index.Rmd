@@ -1,0 +1,22 @@
+---
+title: "RMD Shiny Prerendered"
+output: html_document
+runtime: shiny_prerendered
+---
+
+
+## Render time
+
+```{r}
+Sys.time()
+```
+
+## Runtime
+
+```{r}
+verbatimTextOutput("time")
+```
+
+```{r, context="server"}
+output$time <- renderPrint({ Sys.time() })
+```
