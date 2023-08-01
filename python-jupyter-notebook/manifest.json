@@ -1,0 +1,24 @@
+{
+  "locale": "en_US.UTF-8",
+  "python": {
+    "version": "3.8.12",
+    "package_manager": {
+      "name": "pip",
+      "version": "22.2.2",
+      "package_file": "requirements.txt"
+    }
+  },
+  "version": 1,
+  "files": {
+    "add.ipynb": {
+      "checksum": "085e17945a26a2c04996861914e1e457"
+    },
+    "requirements.txt": {
+      "checksum": "b1b2cc61ee57e86353113c217c6ea26c"
+    }
+  },
+  "metadata": {
+    "appmode": "jupyter-static",
+    "entrypoint": "add.ipynb"
+  }
+}
